@@ -35,10 +35,7 @@ document.addEventListener('click', e => {
       xTurn = true
       btnSelected.disabled = true
     }
-
-    
     checkMatrix()
-    console.log(checkMatrix());
   } else {
     null
   }
