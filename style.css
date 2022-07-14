@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #e9c46a;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-size: 70px;
+  color: #2a9d8f;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board .column1 {
+  background-color: #2a9d8f;
+  height: 24.563rem;
+}
+
+.board .column1 .punt1 {
+  height: 8rem;
+  margin: 0rem 0.313rem 0.313rem 0rem
+}
+
+.board .column1 .punt1 .space {
+  border: none;
+  width: 10rem;
+  height: 8rem;
+  font-size: 3rem;
+  background-color: #e9c46a;
+  outline: none;
+}
+.board .column2 {
+  background-color: #2a9d8f;
+  height: 24.563rem;
+}
+
+.board .column2 .punt1 {
+  height: 8rem;
+  margin: 0rem 0.313rem 0.313rem 0rem
+}
+.board .column2 .punt1 .space {
+  border: none;
+  width: 10rem;
+  height: 8rem;
+  font-size: 3rem;
+  background-color: #e9c46a;
+  outline: none;
+}
+.board .column3 {
+  background-color: #2a9d8f;
+  height: 24.563rem;
+}
+
+.board .column3 .punt1 {
+  height: 8rem;
+  margin: 0rem 0rem 0.313rem 0rem
+}
+
+.board .column3 .punt1 .space {
+  border: none;
+  width: 10rem;
+  height: 8rem;
+  font-size: 3rem;
+  background-color: #e9c46a;
+  outline: none;
+}
+.board .punt1 .space:hover{
+  background-color: #f4a261;
+}
+
+.table-points {
+  margin-top: 1rem;
+  max-width: 1rem;
+  text-align: center;
+  color: #264653;
+}
+
+.points-input {
+  color: #264653;
+  border: none;
+  text-align: center;
+  background-color:#e9c46a;
+}
+.restart-btn{
+  background-color: #e76f51;
+  border: none;
+}
+.restart-btn:hover{
+  background-color: #264653;
+}
